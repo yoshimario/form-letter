@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Personalized Postcard</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Tell us a few things for a personalized postcard!</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">Your</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="birthdate">birthdate</label>
+          <input id="birthdate" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" class="form-control" type="text">
+        </div>
+        
+
+        <button type="submit" class="btn btn-primary">Click for your Personalized Postcard</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>Happy Birthday!</h1>
+      <p>Hello<span class="person1"></span>! We over here at San Diego Zoo understand today, <span class="birthdate"></span> is your special day. Via the personality test you submitted for your lifetime membership, we have assigned an animal just for you! It would appear your personality most fits a <span class="animal"></span>, such a majestic creature!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
