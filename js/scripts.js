@@ -1,10 +1,10 @@
-$(document).ready(function) {
+$(document).ready(function() {
   $("#formOne").submit(function(event) {
     const nameInput = $("input#name").val();
     const birthdateInput = $("input#birthdate").val();
-  
-    $(".name").text(nameInput);
-    $("birthdate").text(birthdateInput);
+
+    $(".name").append(nameInput);
+    $(".birthdate").append(birthdateInput);
 
     $("#postcard").show();
 
